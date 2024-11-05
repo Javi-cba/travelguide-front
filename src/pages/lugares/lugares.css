@@ -1,0 +1,62 @@
+.lugares-container {
+  gap: 1rem;
+  margin: 1rem 0rem !important;
+}
+.card {
+  width: 24rem;
+  height: 26rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 0rem !important;
+  background-color: #272523c4 !important;
+  backdrop-filter: blur(5px) !important;
+  border-color: #0e0a07b2;
+  color: white !important;
+}
+
+.card:hover {
+  cursor: pointer;
+  border-color: #6d6c6cb2 !important;
+}
+
+.tag {
+  background-color: #6d6c6cb2 !important;
+  color: white !important;
+  border-radius: 1rem;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.7rem;
+}
+
+.drawer-container {
+  background-color: #0e0a07b2 !important;
+  backdrop-filter: blur(2px) !important;
+  color: white !important;
+}
+
+.iconAction {
+  font-size: 1.3rem !important;
+  color: white !important;
+}
+
+.card .ant-card-actions {
+  background-color: #5a59598c;
+  border-top: 1px solid #777777;
+  height: 4rem !important;
+  padding: 0rem !important;
+}
+.ant-card-actions {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+}
+.ant-card-actions > li {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card .ant-card-actions > li:hover {
+  background-color: #6b6a6a8c;
+}
